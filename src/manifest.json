@@ -1,0 +1,9 @@
+{
+    "name": "The-Browser-Tracker",
+    "version": "1.0",
+    "description": "This extension tracks our browser usage metrics like, list of websites visited daily, weekly & monthly.",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html"
+    }
+}

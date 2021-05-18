@@ -1,0 +1,14 @@
+@import '~medium-editor/dist/css/medium-editor.min.css';
+@import '~medium-editor/dist/css/themes/default.min.css';
+
+
+
+.medium-editor-element {
+    min-height: 100vh !important;
+    min-width: 100vw !important;
+}
+
+.save-button {
+    float: right;
+    right: 20;
+}
