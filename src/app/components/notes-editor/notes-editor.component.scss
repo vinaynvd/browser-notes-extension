@@ -1,14 +1,39 @@
 @import '~medium-editor/dist/css/medium-editor.min.css';
 @import '~medium-editor/dist/css/themes/default.min.css';
 
-
+.container {
+    margin: 0px;
+    padding: 0px;
+}
 
 .medium-editor-element {
-    min-height: 100vh !important;
-    min-width: 100vw !important;
+    min-width: 390px !important;
+    height: 415px;
+    overflow-y: scroll;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-top: -10px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background: red;
+    position: fixed;
+    bottom: 0;
 }
 
 .save-button {
     float: right;
-    right: 20;
+    right: 20px;
+    margin: 10px;
+}
+
+.footer {
+    border: 1px solid black;
+    padding: 10px;
+    position: sticky;
+    width: 100%;
+    margin-left: -10px !important;
+    bottom: 0;
 }

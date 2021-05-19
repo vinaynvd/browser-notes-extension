@@ -36,7 +36,8 @@ export class NotesEditorComponent implements AfterViewInit {
   }
 
   loadContent() {
-    if (this.storedItem) {
+    const storedTextContent = this.getTextFromStored(this.storedItem);
+    if (storedTextContent.length > 0) {
       this.editable.nativeElement.click();
       this.editable.nativeElement.innerHTML = this.storedItem;
     }
@@ -62,5 +63,11 @@ export class NotesEditorComponent implements AfterViewInit {
     let anchor = document.querySelector("a");
     anchor.setAttribute('download', this.generateFileName());
     anchor.setAttribute('href', 'data:text/html;charset=UTF-8,' + encodeURIComponent(editorContent));
+  }
+
+  getTextFromStored(storedContent) {
+    const parser = new DOMParser();
+    let output = parser.parseFromString(storedContent, 'text/html');
+    return output.body.innerText;
   }
 }

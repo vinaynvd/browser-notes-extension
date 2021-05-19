@@ -1,14 +1,40 @@
-<mat-tab-group>
+<!-- <mat-tab-group>
     <mat-tab label="Notes">
         <header>
             <h1>Browser Notes</h1>
+        </header>
+
+        <br> <br> <br>
+        <div #editable></div>
+        <div class="footer">
             <a mat-stroked-button class="save-button" (click)="exportData()">
                 Export Notes <mat-icon>download</mat-icon>
             </a>
-        </header>
-            
-            <br> <br> <br>
-            <div #editable></div>
+        </div> 
+
     </mat-tab>
     <mat-tab label="About"> Content 2 </mat-tab>
-  </mat-tab-group>
+</mat-tab-group> -->
+
+<mat-toolbar>
+    <div mat-card-avatar class="header-image"></div>
+    <span>Browser Notes</span>
+</mat-toolbar>
+<div class="container">
+    <mat-tab-group>
+
+        <mat-tab label="Notes">
+
+            <mat-list></mat-list>
+            <div #editable></div>
+            <mat-divider></mat-divider>
+            <a mat-stroked-button class="save-button" (click)="exportData()">
+                Export Notes <mat-icon>download</mat-icon>
+            </a>
+        </mat-tab>
+
+        <mat-tab label="About Extension">
+            <app-about-extension></app-about-extension>
+        </mat-tab>
+    </mat-tab-group>
+</div>

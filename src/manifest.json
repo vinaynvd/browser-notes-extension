@@ -1,9 +1,13 @@
 {
-    "name": "The-Browser-Tracker",
-    "version": "1.0",
-    "description": "This extension tracks our browser usage metrics like, list of websites visited daily, weekly & monthly.",
+    "name": "Browser Notes",
+    "version": "2.0",
+    "description": "You can take notes, which includes text, lists, links & images. We can export our notes in the form of html..",
     "manifest_version": 2,
     "browser_action": {
+        "default_icon": {
+            "19": "assets/images/browser-notes-icon.PNG",
+            "38": "assets/images/browser-notes-icon.PNG"
+        },
         "default_popup": "index.html"
     }
 }
