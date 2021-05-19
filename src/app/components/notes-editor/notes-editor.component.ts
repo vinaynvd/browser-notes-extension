@@ -1,5 +1,9 @@
+/**
+ * Copyright 2021.
+ * Disclosure, use, or reproduction without the written authorization of author is prohibited.
+ * @Author Vinay Datta
+ */
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
-import { $ } from 'protractor';
 import { globalConfig } from 'src/app/global-config.constants';
 declare const MediumEditor: any;
 
