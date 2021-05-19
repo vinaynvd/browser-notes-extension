@@ -12,4 +12,15 @@ This extension uses your browser's localstorage to store your content.
 
 Version & About of this extension can be seen in About tab.
 
-![image](https://user-images.githubusercontent.com/22757166/118651874-9b02d980-b803-11eb-9893-577383486e2e.png)
+# Features screenshots
+
+## You can type your important notes
+![image](https://user-images.githubusercontent.com/22757166/118763187-0ba60680-b895-11eb-9dbd-294bc5d7ecb9.png)
+
+## Will open as Pop-up
+![image](https://user-images.githubusercontent.com/22757166/118762765-5ffcb680-b894-11eb-8eb4-1a1837aed6fb.png)
+
+## Can copy paste notes like text & images & even links which you see in the websites
+![image](https://user-images.githubusercontent.com/22757166/118763027-cf72a600-b894-11eb-8ce5-e8725b6284f8.png)
+
+## Oh Yeah! you can even save your notes as html files.
