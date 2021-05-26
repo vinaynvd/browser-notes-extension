@@ -24,3 +24,11 @@ Version & About of this extension can be seen in About tab.
 ![image](https://user-images.githubusercontent.com/22757166/118763027-cf72a600-b894-11eb-8ce5-e8725b6284f8.png)
 
 ## Oh Yeah! you can even save your notes as html files.
+
+### If you found this project useful, please please buy me a Coffee by clicking the below image 🙂
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/vinaynvd">
+<img width="160" height="40" src="https://user-images.githubusercontent.com/22757166/119656626-85fff900-be48-11eb-99b6-751ce3bb40ef.png">
+</p>
+
